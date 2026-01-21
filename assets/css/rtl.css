@@ -1,0 +1,83 @@
+body {
+  overflow-x: hidden;
+  direction: rtl;
+
+  .hero-1 .hero-info {
+        right: initial;
+        left: 150px;
+    }
+
+    .hero-1 .hero-image {
+        margin-left: initial;
+        margin-right: -150px;
+    }
+
+    @media screen and (max-width: 1399px) {
+        .about-wrapper  .about-left-items .skill-counter {
+            padding-right: 0 !important;
+                    border: none !important;
+        }
+
+        .testimonial-wrapper .swiper-pagination {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 1199px) {
+      .hero-1 .hero-image {
+           text-align: center;
+           margin-right: 0;
+           margin: 0 auto;
+        }
+    }
+
+    .theme-btn i {
+        margin-right: 10px;
+        margin-left: 0;
+    }
+
+    .hero-1 .vec-shape {
+        left: 16%;
+        right: initial;
+    }
+    
+    .section-title h6 {
+        padding-right: 50px;
+        padding-left: 0;
+    }
+
+
+    .section-title h6::before {
+       left: initial;
+       right: 0;
+    }
+
+     .section-title h6::after {
+       left: initial;
+       right: 0;
+    }
+
+    .about-wrapper .about-left-items .skill-counter {
+        border-right: 1px solid rgba(255, 255, 255, 0.2);
+        padding-right: 20px;
+        padding-left: 0;
+        border-left: none;
+    }
+
+    .testimonial-wrapper .swiper-pagination {
+       left: initial;
+       right: 47%;
+       
+    }
+
+    .quick-option.dark .icon {
+        left: initial;
+        right: 5px;
+    }
+
+    .quick-option.light .icon{
+        right: initial;
+        left: 0;
+    }
+}
+
